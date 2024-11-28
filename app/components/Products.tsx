@@ -87,7 +87,6 @@ export default function Products() {
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-8">Products</h1>
 
-            {/* Products Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                 {products.map((product) => (
                     <Link
@@ -116,7 +115,6 @@ export default function Products() {
                 ))}
             </div>
 
-            {/* Pagination */}
             {meta && (
                 <div className="flex items-center justify-between border-t border-gray-200 px-4 py-3 sm:px-6">
                     <div className="flex flex-1 justify-between sm:hidden">
